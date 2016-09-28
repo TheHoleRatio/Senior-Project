@@ -2,8 +2,8 @@ clear
 
 executable = '"../../x64/Release/FaceLandmarkImg.exe"';
     
-in_dir  = '../../videos/';
-out_dir = './demo_img/';
+in_dir  = '../../pictures/';
+out_dir = '../../output';
 
 if(~exist(out_dir, 'file'))
     mkdir(out_dir);
